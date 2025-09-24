@@ -8,3 +8,4 @@ head(penguins)
 model1 <- lm(species ~ flipper_length_mm, data=penguins_raw)
 summary(model1)
 #something uselsssssssssss
+#something else useless
