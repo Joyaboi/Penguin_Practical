@@ -1,12 +1,11 @@
 #install tidyverse
 library(tidyverse)
 #read penguins
-penguins <- read.table
+install.packages("data.table")  # once
+library(data.table)
+penguin <- fread("data_read_only/penguin_data.txt")z
 #look at penguins
-head(penguins)
-#run a linear regression
-model1 <- lm(species ~ flipper_length_mm, data=penguins_raw)
-summary(model1)
+head(penguin)
 #something lsssssssssss
 #something else useless
 #evenmoreuselessstuff
